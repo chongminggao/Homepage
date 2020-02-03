@@ -78,8 +78,14 @@ theme: eager
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repo: git@23.106.128.93:/home/git/blog.git
+    # repo: git@23.106.128.93:/home/git/blog.git
+    # branch: master            #这里填写分支   [branch]
+
+
     # repo: git@eagerming.com:/home/git/blog.git    #<repository url>
     # repo: ssh://chongming@127.0.0.1:~/Desktop/hehe/blog.git    #<repository url>
-    branch: master            #这里填写分支   [branch]
+    
     #message:  #//自定义提交信息 (默认为 Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})
+
+    repo: git@github.com:eagerming/Homepage.git
+    branch: gh-pages
