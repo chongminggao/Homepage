@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /archives/
+Disallow: /archives
+
+
+Disallow: /private
+Disallow: /private/

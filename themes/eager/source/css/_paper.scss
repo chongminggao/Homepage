@@ -1,0 +1,116 @@
+.posts {
+    width: $global-body-width;
+    margin: 30px auto;
+}
+
+.stage {
+    $indent: 100px !default;
+    .stage{
+        color: #268bd2;
+        margin-bottom: -30px;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 18px;
+        //margin-bottom: -1px;
+        padding-left: $indent;
+        border-top: 2px dotted #333;
+        span {
+            position: relative;
+            top: -13px;
+            background-color: $global-background;
+            padding-right: 8px;
+            padding-left: 8px;
+        }
+    }
+
+    .post {
+        //margin: 0 auto;
+        text-align: justify;
+        margin: 30px auto;
+        position: relative;
+
+        background: white;
+
+
+        padding: 30px 80px 100px;
+
+
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(26,26,26,.5);
+        box-sizing: border-box;
+
+        font-family: "Times New Roman";
+        h2 {
+            margin-top: 0;
+            text-align: center;
+            //font-family: 'Droid Sans Mono Dotted';
+        }
+        h4 {
+            text-align: center;
+        }
+
+        //h4 {
+        //    display: block;
+        //    text-transform: uppercase;
+        //}
+        abstract::before {
+            content: 'ABSTRACT: ';
+            font-weight: bold;
+        }
+
+        inf {
+            position: absolute;
+            bottom: 60px;
+            color: #555;
+            text-align: center;
+        }
+
+        inf::before {
+            content: 'STATE: ';
+            font-weight: bold;
+        }
+
+        attached {
+            a{
+                //float: right;
+                //font-family: 'Monda', Sans-Serif;
+                //background: #c05b4d;
+                //border-radius: 5px;
+                //color: white;
+                //font-size: smaller;
+                //font-weight: lighter;
+                //margin: 0 5px;
+                target: blank;
+            }
+        }
+        img {
+            width: 400px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .paper-page {
+            position: absolute;
+            bottom: 8px;
+            left: $global-body-width /2 - 40px;
+            color: #555;
+            text-align: center;
+            span::before{
+                padding-right: 10px;
+                padding-bottom: -10px;
+                //border-bottom: 2px solid #000;
+                content: "~~~";
+            }
+            span::after{
+                padding-left: 10px;
+                padding-bottom: -10px;
+                //border-bottom: 2px solid #000;
+                content: "~~~";
+            }
+
+        }
+    }
+}
+
+
