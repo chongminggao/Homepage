@@ -23,7 +23,22 @@
 %   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv1} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% \documentclass{ctexart}
+
+\usepackage{xeCJK}
+% \usepackage{fontspec}
+
+% \usepackage{fontspec}
+% \usepackage{xunicode}
+% \usepackage{xeCJK}
+% \setmainfont{Chancery.ttf}
+% \setsansfont{Chancery.ttf}
+% \setmonofont{Chancery.ttf}
+\setCJKmainfont{SimKai.ttf}
+\setCJKsansfont{SimKai.ttf}
+% \setCJKmonofont{STSong}
+% %\setCJKmathfont{}
 
 % \usepackage[scale=0.85, top=15mm, bottom=13mm]{geometry}
 \usepackage[scale=0.85]{geometry}
@@ -41,8 +56,8 @@
 %----------------------------------------------------------------------------------------
 
 \firstname{Chongming} % Your first name
-\familyname{Gao} % Your last name
-
+\familyname{Gao 高崇铭\\\vspace{3mm}
+\LARGE{HomePage: ~ https://eagerming.com}} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
 %\title{Curriculum Vitae}
@@ -64,7 +79,10 @@
 %----------------------------------------------------------------------------------------
 % \moderncvhead{1}
 
-\renewcommand*\namefont{\fontfamily{pzc}\fontsize{40}{48}\selectfont}
+\newfontfamily\chancery[Ligatures=TeX]{Chancery.ttf}
+\renewcommand*\namefont{\chancery\fontsize{30}{48}\selectfont}
+
+% \renewcommand*\namefont{\fontfamily{pzc}\fontsize{40}{48}\selectfont}
 % \renewcommand*\titlefont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
 % \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
 % \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
@@ -101,31 +119,31 @@
 
 \section{Experiences}
 
-\cventry{After 2020}{The University of Queensland, Australia}{}{}{}{Ph.D. in School of Information Technology and Electrical Engineering (ITEE)\vspace{1mm}\\
+\cventry{After 2020\\ Ph.D.}{The University of Queensland, Australia}{}{}{}{School of Information Technology and Electrical Engineering (ITEE)\vspace{1mm}\\
 Supervisor:\href{https://sites.google.com/site/dbhongzhi/}{\blue{Hongzhi Yin}}.\vspace{1mm}\\
 Research topics: Recommender System and NLP.}
 \vspace{1mm}
 
 
-\cventry{2019.03--2019.09}{Alibaba DAMO Academy\href{https://damo.alibaba.com/labs/ai?lang=en}{\blue{AI Labs}}}{}{}{}{Research intern under the supervision of \href{https://scholar.google.com/citations?user=N4rQYDAAAAAJ&hl=en}{\blue{Hao Wang}} and \href{http://www.zaiqing.net/}{\blue{Zaiqing Nie}}.\vspace{1mm}\\
-Internship achievement: Submitted a paper to WWW'20 (still under review).}
+\cventry{2019.03--2019.09\\ Research Intern}{Alibaba \href{https://damo.alibaba.com/labs/ai?lang=en}{\blue{AI Labs}}}{}{}{}{Research intern under the supervision of \href{https://scholar.google.com/citations?user=N4rQYDAAAAAJ&hl=en}{\blue{Hao Wang}} and \href{http://www.zaiqing.net/}{\blue{Zaiqing Nie}}.\vspace{1mm}\\
+Internship achievement: Submitted a paper to KDD'20 (still under review).}
 \vspace{1mm}
 
 % \cventry{2016.09--2019.03}{University of Electronic Science and Technology of China}{}{}{}
 % {M.Eng. in Department of Computer Science and Technology. Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\\}
 
-\cventry{2016.09--2019.06}{University of Electronic Science and Technology of China}{}{}{}
-{M.Eng. in Department of Computer Science and Technology. \vspace{1mm}\\
+\cventry{2016.09--2019.06\\ M.Eng.}{University of Electronic Science and Technology of China}{}{}{}
+{Department of Computer Science and Technology. \vspace{1mm}\\
 Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\vspace{1mm}\\
-Thesis: Synchronization-inspired Co-clustering and Its Application to Gene Expression Data.}
+Thesis: A Research on the Trajectory Semantic Representation and Location Recommender Systems.}
 \vspace{1mm}
 
 % \cventry{2016.09--2019.03}{University of Electronic Science and Technology of China}{}{}{}
 % {M.Eng. in Department of Computer Science and Technology.\vspace{1mm}\\
 % Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}.\\}
 
-\cventry{2012.09--2016.06}{University of Electronic Science and Technology of China}{}{}{}
-{B.Eng. in \textit{Yingcai Honors College} (Elite program of UESTC). GPA: 3.81, Ranking: 9/72\\
+\cventry{2012.09--2016.06 \\ B.Eng.}{University of Electronic Science and Technology of China}{}{}{}
+{\textit{Yingcai Honors College} (Elite program of UESTC). GPA: 3.81, Ranking: 9/72\\
 Supervisor:\href{http://dm.uestc.edu.cn}{\blue{Junming Shao}}, since the junior year.\vspace{1mm}\\
 Thesis: Synchronization-inspired Co-clustering and Its Application to Gene Expression Data.}  % Arguments not required can be left empty
 \vspace{1mm}
@@ -139,55 +157,55 @@ Thesis: Synchronization-inspired Co-clustering and Its Application to Gene Expre
 
 % \cvitem{Accepted}{\small Junming Shao, Chongming Gao, Wei Zeng, Jingkuan Song, Qinli Yang, Synchronization-inspired Co-clustering and Its Application to Gene Expression Data.}
 
+\cventry{KDD'20\\Under Review }{*\small Item Recommendation on Shared Accounts through User Identification}{}{}{}{\small \underline{Chongming Gao}, Hao Wang, Junliang Yu, Yong Cao, Zaiqing Nie, Hongzhi Yin\vspace{1mm}\\
+Submitted to \emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (\textbf{KDD'20})\vspace{1mm}\\
+(CORE2018 Rank A*, CCF A), still under review.}
 
+\cventry{IS'20\\Under Review \\(Minor Revision)}{\small Semantic Trajectory Representation and Retrieval via Hierarchical Embedding}{}{}{}{\small \underline{Chongming Gao}, Chen Huang, Zhong Zhang, Qinli Yang, Junming Shao\vspace{1mm}\\
+Submitted to \emph{Information Sciences}, still under review\vspace{1mm}\\
+(SJR Q1, H index: 154).}
 
-\cventry{Accepted}{\small \mbox{*BLOMA: Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation}}{}{}{}{\small \underline{Chongming Gao}, Shuai Yuan, Zhong Zhang, Hongzhi Yin, Junming Shao\vspace{1mm}\\
- \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
-(CORE2018 Rank B, CCF B, Rating: 3.0)}
-\vspace{1mm}
-
-\cventry{Accepted}{*\small Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering}{}{}{}{\small \underline{Chongming Gao}, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao\vspace{1mm}\\
-\emph{Knowledge-Based Systems} (\textbf{KBS'19}), \vspace{1mm}\\
-(SJR Rank Q1, H Index: 82, ERA2010 Rating: 5.0)}
-\vspace{1mm}
-
-\cventry{Accepted}{*\small Synchronization-inspired Co-clustering and Its Application to Gene Expression Data}{}{}{}{\small Junming Shao, \underline{Chongming Gao}, Wei Zeng, Jingkuan Song, Qinli Yang\vspace{1mm}\\
-\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'17}), \vspace{1mm}\\
-(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
-\vspace{1mm}
-
-
-\cventry{Accepted}{\small Towards Robust Arbitrarily Oriented Subspace Clustering \red{
+\cventry{DASFAA'19}{\small Towards Robust Arbitrarily Oriented Subspace Clustering \red{
 \fbox{Best Paper Award}}}{}{}{}{\small Zhong Zhang, \underline{Chongming Gao}, Chongzhi Liu, Qinli Yang, Junming Shao\vspace{1mm}\\
  \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
 (CORE2018 Rank B, Rating: 3.0, CCF B)}
 \vspace{1mm}
 
-\cventry{Accepted}{\small Online Budgeted Least Squares with Unlabeled Data}{}{}{}{\small Chen Huang, Peiyan Li, \underline{Chongming Gao}, Qinli Yang, Junming Shao\vspace{1mm}\\
-\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
-(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
-\vspace{1mm}
 
-\cventry{Accepted}{\small Generating Reliable Friends via Adversarial Training to Improve Social Recommendation}{}{}{}{\small Junliang Yu, Min Gao, Hongzhi Yin, Jundong Li, \underline{Chongming Gao}, Qinyong Wang\vspace{1mm}\\
-\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
-(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
-\vspace{1mm}
-
-\cventry{Accepted}{\small SemiSync: Semi-supervised Clustering by Synchronization}{}{}{}{\small Zhong Zhang, DiDi Kang, \underline{Chongming Gao}, Junming Shao\vspace{1mm}\\
+\cventry{DASFAA'19}{\small \mbox{*BLOMA: Explain Collaborative Filtering via Boosted Local Rank-One Matrix Approximation}}{}{}{}{\small \underline{Chongming Gao}, Shuai Yuan, Zhong Zhang, Hongzhi Yin, Junming Shao\vspace{1mm}\\
  \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
-(CORE2018 Rank B, CCF B, Rating: 3.0, CCF B)}
+(CORE2018 Rank B, CCF B, Rating: 3.0)}
+\vspace{1mm}
+
+\cventry{KBS'19}{*\small Semantic Trajectory Compression via Multi-resolution Synchronization-based Clustering}{}{}{}{\small \underline{Chongming Gao}, Yi Zhao, Ruizhi Wu, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{Knowledge-Based Systems} (\textbf{KBS'19}), \vspace{1mm}\\
+(SJR Rank Q1, H Index: 94, ERA2010 Rating: 5.0)}
+\vspace{1mm}
+
+\cventry{ICDM'19}{\small Online Budgeted Least Squares with Unlabeled Data}{}{}{}{\small Chen Huang, Peiyan Li, \underline{Chongming Gao}, Qinli Yang, Junming Shao\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
+(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
+\vspace{1mm}
+
+\cventry{ICDM'19}{\small Generating Reliable Friends via Adversarial Training to Improve Social Recommendation}{}{}{}{\small Junliang Yu, Min Gao, Hongzhi Yin, Jundong Li, \underline{Chongming Gao}, Qinyong Wang\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'19}), \vspace{1mm}\\
+(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
+\vspace{1mm}
+
+\cventry{DASFAA'19}{\small SemiSync: Semi-supervised Clustering by Synchronization}{}{}{}{\small Zhong Zhang, DiDi Kang, \underline{Chongming Gao}, Junming Shao\vspace{1mm}\\
+ \emph{International Conference on Database Systems for Advanced Applications} (\textbf{DASFAA'19}), \vspace{1mm}\\
+(CORE2018 Rank B, Rating: 3.0, CCF B)}
+\vspace{1mm}
+
+\cventry{ICDM'17}{*\small Synchronization-inspired Co-clustering and Its Application to Gene Expression Data}{}{}{}{\small Junming Shao, \underline{Chongming Gao}, Wei Zeng, Jingkuan Song, Qinli Yang\vspace{1mm}\\
+\emph{IEEE International Conference on Data Mining} (\textbf{ICDM'17}), \vspace{1mm}\\
+(CORE2018 Rank: A*, Rating: 5.0, CCF B).}
 \vspace{1mm}
 
 
 
 
-\cventry{Under Review \\(Minor Revision)}{\small Semantic Trajectory Representation and Retrieval via Hierarchical Embedding}{}{}{}{\small \underline{Chongming Gao}, Chen Huang, Zhong Zhang, Qinli Yang, Junming Shao\vspace{1mm}\\
-Submitted to \emph{Information Sciences}, still under review\vspace{1mm}\\
-(SJR Q1, H index: 154).}
 
-\cventry{Under Review }{*\small Item Recommendation on Shared Accounts through User Identification}{}{}{}{\small \underline{Chongming Gao}, Hao Wang, Junliang Yu, Yong Cao, Zaiqing Nie, Hongzhi Yin\vspace{1mm}\\
-Submitted to \emph{ACM International Conference on Web Search and Data Mining} (\textbf{WWW'20})\vspace{1mm}\\
-(CORE2018 Rank A*, CCF A), still under review.}
 % \vspace{1mm}
 
 
