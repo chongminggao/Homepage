@@ -19,17 +19,17 @@
     <div class="Experiences">
         <div class="section">
             <h1><span>Experiences</span></h1>
-            <div class="exp_item">
+            <!-- <div class="exp_item">
                 <div class="line_wrap"><div class="year_line"><span class="year">After 2020</span></div></div>
                 <div class="poi">The University of Queensland, Australia</div>
                 <div class="mentor">Ph.D. Supervisor: <a href="https://sites.google.com/site/dbhongzhi/" target="_blank">Hongzhi Yin</a></div>
                 <div class="other">Research Topics: recommendation and dialogue systems.</div>
-            </div>
+            </div> -->
             <div class="exp_item">
                 <div class="line_wrap"><div class="year_line"><span class="year">2019.03–2019.09</span></div></div>
-                <div class="poi"><a href="https://damo.alibaba.com/labs/ai?lang=en" target="_blank">Alibaba DAMO Academy, AI Labs</a></div>
+                <div class="poi"><a href="https://damo.alibaba.com/labs/ai?lang=en" target="_blank">Alibaba, AI Labs</a></div>
                 <div class="mentor">Research intern under the supervision of <a href="https://scholar.google.com/citations?user=N4rQYDAAAAAJ&hl=en" target="_blank">Hao Wang</a> and <a href="http://www.zaiqing.net/" target="_blank">Zaiqing Nie</a>.</div>
-                <div class="other">Internship achievement: Submitted a paper to WWW’20. <br>(still under review).</div>
+                <div class="other">Internship achievement: Submitted a paper to KDD’20. <br>(still under review).</div>
             </div>
             <!-- <div class="exp_item">
                 <div class="year_line"><span class="year">2019.03–2019.09</span></div>

@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1587436310 "chongming-resume.xdv" "chongming-resume.pdf" "chongming-resume" 1587436496
-  "chongming-resume.xdv" 1587436310 56716 2ba2cf3aff530b7b38fa59522c05fefd "xelatex"
+["xdvipdfmx"] 1588230114 "chongming-resume.xdv" "chongming-resume.pdf" "chongming-resume" 1588230115
+  "chongming-resume.xdv" 1588230114 54504 451b4f317cb92140589a78fddfdb3af3 "xelatex"
   (generated)
   "chongming-resume.pdf"
-["xelatex"] 1587436308 "chongming-resume.tex" "chongming-resume.xdv" "chongming-resume" 1587436496
-  "/dev/null" 1587436496 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1588230111 "chongming-resume.tex" "chongming-resume.xdv" "chongming-resume" 1588230115
+  "/dev/null" 1588230114 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -174,9 +174,9 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1577314212 39451 6c50cbbc48279cc2d67f72e32ca48ad5 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1580534400 3766134 efdedb0922134788c8df8e57f9cda5ad ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "chongming-resume.aux" 1587436310 1167 cf7470d02122c050a425575d0e3e364b "xelatex"
-  "chongming-resume.out" 1587436310 675 67eb3bc70623c543a6b2967fe05302f4 "xelatex"
-  "chongming-resume.tex" 1587436308 13830 817f534da4c38da612e63edfaa608fcc ""
+  "chongming-resume.aux" 1588230114 1167 cf7470d02122c050a425575d0e3e364b "xelatex"
+  "chongming-resume.out" 1588230114 675 67eb3bc70623c543a6b2967fe05302f4 "xelatex"
+  "chongming-resume.tex" 1588230111 13838 96bca50664811b287aa04a668f7fefe0 ""
   "moderncvbodyi.sty" 1580759993 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "moderncvcollection.sty" 1580759993 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
   "moderncvcolorblue.sty" 1580759993 1009 80c63e6c925db0de6e9481a3b9df6fc9 ""
@@ -187,6 +187,6 @@
   "tweaklist.sty" 1580759993 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
   "chongming-resume.aux"
-  "chongming-resume.out"
-  "chongming-resume.log"
   "chongming-resume.xdv"
+  "chongming-resume.log"
+  "chongming-resume.out"

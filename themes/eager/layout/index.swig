@@ -7,9 +7,9 @@
 
   <div class="basic-info">
     <h1>Chongming Gao 高崇铭<span></span></h1>
-    <p>The first year Ph.D. student, under the supervision of <a href="https://sites.google.com/site/dbhongzhi/" target="_blank">Hongzhi Yin</a>.</p>
-    <p>at <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland, Australia</a>.</p>
-    <!-- <p>University of Electronic Science and Technology of China <a href="http://en.uestc.edu.cn" target="_blank">(UESTC)</a>.</p> -->
+    <!-- <p>The first year Ph.D. student, under the supervision of <a href="https://sites.google.com/site/dbhongzhi/" target="_blank">Hongzhi Yin</a>.</p>
+    <p>at <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland, Australia</a>.</p> -->
+    <p>University of Electronic Science and Technology of China <a href="http://en.uestc.edu.cn" target="_blank">(UESTC)</a>.</p>
     <p><br/></p>
     <p><B>Research Interests:</B> Spatio-temporal data analysis,</p>
     <p>graph embedding, recommender system, </p>
