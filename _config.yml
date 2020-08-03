@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chongming Gao
+title: Chongming Gao (高崇铭)'s Homepage
 subtitle:
 description:
-author: Eagerming
+author: Chongming Gao
 language:
 timezone:
 
@@ -87,5 +87,5 @@ deploy:
     
     #message:  #//自定义提交信息 (默认为 Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})
 
-    repo: git@github.com:eagerming/Homepage.git
+    repo: git@github.com:chongminggao/Homepage.git
     branch: gh-pages
