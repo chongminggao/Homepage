@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1596200634 "chongming-resume-chinese.xdv" "chongming-resume-chinese.pdf" "chongming-resume-chinese" 1596200635
-  "chongming-resume-chinese.xdv" 1596200634 63136 a80f064e15a49fe522c92b76b74d672f "xelatex"
+["xdvipdfmx"] 1597118336 "chongming-resume-chinese.xdv" "chongming-resume-chinese.pdf" "chongming-resume-chinese" 1597118336
+  "chongming-resume-chinese.xdv" 1597118336 58960 1b2756bb166388cdd7f23dd85e661546 "xelatex"
   (generated)
   "chongming-resume-chinese.pdf"
-["xelatex"] 1596200633 "chongming-resume-chinese.tex" "chongming-resume-chinese.xdv" "chongming-resume-chinese" 1596200635
+["xelatex"] 1597118334 "chongming-resume-chinese.tex" "chongming-resume-chinese.xdv" "chongming-resume-chinese" 1597118336
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
@@ -169,9 +169,9 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1595478897 4769626 2a7490307b8395352fe4673078a15e8c ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "chongming-resume-chinese.aux" 1596200634 1303 7c15f94b73a2abd675671629ba7758f9 "xelatex"
-  "chongming-resume-chinese.out" 1596200634 509 6a5c765ff742aa5d7c1618eca6b673bb "xelatex"
-  "chongming-resume-chinese.tex" 1596200527 17375 8dafbd69aef09a8fbad7cb7738700a5b ""
+  "chongming-resume-chinese.aux" 1597118336 1303 7c15f94b73a2abd675671629ba7758f9 "xelatex"
+  "chongming-resume-chinese.out" 1597118336 509 6a5c765ff742aa5d7c1618eca6b673bb "xelatex"
+  "chongming-resume-chinese.tex" 1597118318 17373 59c552877ca3386398149d3802c7deb4 ""
   "moderncvbodyi.sty" 1438099736 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "moderncvcollection.sty" 1438099736 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
   "moderncvcolorblue.sty" 1527003373 1009 80c63e6c925db0de6e9481a3b9df6fc9 ""
@@ -182,6 +182,6 @@
   "tweaklist.sty" 1438099736 1966 8ce3a021c0bc6369db88faeddf828d71 ""
   (generated)
   "chongming-resume-chinese.log"
-  "chongming-resume-chinese.xdv"
   "chongming-resume-chinese.out"
   "chongming-resume-chinese.aux"
+  "chongming-resume-chinese.xdv"

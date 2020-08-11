@@ -58,7 +58,7 @@
         <div class="section">
             <h1><span>Research Interests</span></h1>
             <p>
-                My research interests lay in Data Mining and Machine Learning,
+                My research interests lie in Data Mining and Machine Learning,
                 with a focus on leveraging graph analysis and clustering techniques,
                 to a wide range of questions including Spatio-temporal data analysis, pattern-based graph embedding, recommender system, natural language processing and so on.
             </p>
@@ -122,7 +122,7 @@
                 </tr>
                 <tr>
                     <td class="table_date">2012</td>
-                    <td class="table_desc"> <a href="http://www.pkuef.org/pkuef/newdetail.php?id=1735" target="_blank">Tang Lixin Scholarship</a> of UESTC. Top 60 out of over 25,000 undergraduate and graduate students at UESTC.</td>
+                    <td class="table_desc"> <a href="http://www.pkuef.org/info/1156/2263.htm" target="_blank">TANG Lixin Scholarship</a> of UESTC. Top 60 out of over 25,000 undergraduate and graduate students at UESTC.</td>
                 </tr>
                 <tr>
                     <td class="table_date">2012</td>
